@@ -2,9 +2,9 @@ $(document).ready(function () {
 
 var userInput = prompt("Please enter an integer.");
 
+/*I don't understand the instructions for converting a string to a number. It appears to be a number by default.*/
 
-
-for (var i = 0; i < 101; i++) {
+for (var i = 0; i < userInput; i++) {
 	if(i % 3 == 0) {
 		console.log("fizz");
 		$('ul').append('<li>' + "fizz" + '</li>');
